@@ -14,6 +14,5 @@
 [Windows Loopback Exemption Manager](https://github.com/tiagonmas/Windows-Loopback-Exemption-Manager)
 
 选中前面的方块点击 Save Changes即可
-
-![[attachments/image_1.2a147021.png]]
+![](attachments/image_1.2a147021.png)
 

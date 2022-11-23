@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "569da3c725b58815",
+            "id": "5a928c8b355a84e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "002-Daily/221123.md",
+                "file": "004-面试题/Git使用指南/将本地git仓库与远程仓库连接（GitHub）.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa8542a62aeee7d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "004-面试题/Git使用指南/配置git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "002-Daily/221123.md",
+                "file": "004-面试题/Git使用指南/配置git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "002-Daily/221123.md",
+                "file": "004-面试题/Git使用指南/配置git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "002-Daily/221123.md"
+                "file": "004-面试题/Git使用指南/配置git.md"
               }
             }
           }
@@ -137,17 +151,17 @@
     "direction": "horizontal",
     "width": 286.5
   },
-  "active": "eb9b2a15c7d12009",
+  "active": "aa8542a62aeee7d4",
   "lastOpenFiles": [
+    "004-面试题/Git使用指南/将本地git仓库与远程仓库连接（GitHub）.md",
+    "004-面试题/未命名.md",
+    "002-Daily/221123.md",
     "002-Daily/221122.md",
-    "004-面试题/JavaScript/JavaScript上.md",
+    "003-Application/Obsidian/使用git来给obsidian同步.md",
     "000-InBox/未命名.md",
     "003-Application/Window/通过设置为 win uwp应用解除网络隔离（即可以通过代理上网）.md",
+    "004-面试题/JavaScript/JavaScript上.md",
     "003-Application/Window/window升级有时会无法升级.md",
-    "000-InBox/image_1.2a147021.png.md",
-    "003-Application/Obsidian/Obsidian优质中文教程合集.md",
-    "002-Daily/221118.md",
-    "001-Template/Daily Template.md",
-    "002-Daily/221118_周五.md"
+    "000-InBox/image_1.2a147021.png.md"
   ]
 }
