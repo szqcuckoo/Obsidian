@@ -1,0 +1,12 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "./attachments",
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "newFileFolderPath": "000-InBox",
+  "newLinkFormat": "relative",
+  "showInlineTitle": true,
+  "readableLineLength": true
+}
