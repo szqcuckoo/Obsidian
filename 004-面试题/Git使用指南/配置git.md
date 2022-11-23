@@ -15,4 +15,3 @@ cat id_rsa.pub
 ```
 6. 登陆 GitHub ，进入 Settings-SSH and GPG keys
 7. 添加 SSH 密钥
-
