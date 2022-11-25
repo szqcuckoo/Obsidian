@@ -43,7 +43,11 @@ const p4 = new Promise((resolve, reject) => {
   reject("err2")
 })
 
-const pAll = Promise.all([p1, p2, p3, p4])
+const pAll = Promise.all(
+  [p1, p2, p3, p4].map(p => 
+    p.catch(err => err)
+  )
+)
 
 pAll
   .then(res => {
@@ -52,6 +56,6 @@ pAll
   .catch(err => {
     console.log("err:", err)
   })
-  .finally(res => {
-    console.log("res:", res)
-  })
+  // .finally(res => {
+  //   console.log("res:", res)
+  // })
