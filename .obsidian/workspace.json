@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004-面试题/JavaScript/代码输出/异步&事件循环.md",
+                "file": "004-面试题/JavaScript/异步编程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004-面试题/JavaScript/代码输出/异步&事件循环.md",
+                "file": "004-面试题/JavaScript/异步编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004-面试题/JavaScript/代码输出/异步&事件循环.md",
+                "file": "004-面试题/JavaScript/异步编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004-面试题/JavaScript/代码输出/异步&事件循环.md"
+                "file": "004-面试题/JavaScript/异步编程.md"
               }
             }
           },
@@ -138,15 +138,17 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 286.5
   },
-  "active": "7f048dc87b45e6d9",
+  "active": "eb9b2a15c7d12009",
   "lastOpenFiles": [
     "004-面试题/JavaScript/JavaScript上.md",
+    "004-面试题/JavaScript/代码输出/异步&事件循环.md",
     "002-Daily/221125.md",
     "004-面试题/Git使用指南/配置git.md",
     "002-Daily/221123.md",
@@ -154,7 +156,6 @@
     "004-面试题/未命名.md",
     "002-Daily/221122.md",
     "003-Application/Obsidian/使用git来给obsidian同步.md",
-    "000-InBox/未命名.md",
-    "003-Application/Window/通过设置为 win uwp应用解除网络隔离（即可以通过代理上网）.md"
+    "000-InBox/未命名.md"
   ]
 }
