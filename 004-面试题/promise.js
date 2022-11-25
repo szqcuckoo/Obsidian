@@ -2,7 +2,7 @@ const getHome = () =>
   new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve("home数据")
-    }, 1000)
+    }, 500)
   })
 const getList = () =>
   new Promise((resolve, reject) => {
@@ -14,7 +14,7 @@ const getSide = () =>
   new Promise((resolve, reject) => {
     setTimeout(() => {
       reject("side数据")
-    }, 1000)
+    }, 400)
   })
 
 const all = Promise.allSettled([getHome(), getList(), getSide()])
@@ -22,6 +22,14 @@ const all = Promise.allSettled([getHome(), getList(), getSide()])
 all
   .then(res => {
     console.log("sucess", res)
+  })
+  .catch(err => {
+    console.log("err:", err)
+  })
+
+Promise.race([getHome(), getList(), getSide()])
+  .then(res => {
+    console.log("res:", res)
   })
   .catch(err => {
     console.log("err:", err)
