@@ -17,11 +17,11 @@ const getSide = () =>
     }, 1000)
   })
 
-const all = Promise.all([getHome(), getList(), getSide()])
+const all = Promise.allSettled([getHome(), getList(), getSide()])
 
 all
   .then(res => {
-    console.log("sucess")
+    console.log("sucess", res)
   })
   .catch(err => {
     console.log("err:", err)
