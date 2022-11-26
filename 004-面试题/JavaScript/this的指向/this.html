@@ -102,26 +102,27 @@
 
       // obj.func.bind({ _name: "bindObj" }).apply({ _name: "applyObj" })() // bindObj
 
-      function foo() {
-        console.log(this.a)
-      }
+      // function foo() {
+      //   console.log(this.a)
+      // }
 
-      const fnn = () => {
-        console.log(this)
-      }
+      // const fnn = () => {
+      //   console.log(this)
+      // }
 
-      var obj = {
-        a: 2,
-        foo: foo,
-        fn: () => {
-          console.log(this)
-        },
-        fnn: fnn,
-      }
-      foo() // undefined
-      obj.foo() // 2
-      obj.fn() // undefined
-      obj.fnn() // undefined
+      // var obj = {
+      //   a: 2,
+      //   foo: foo,
+      //   fn: () => {
+      //     console.log(this)
+      //   },
+      //   fnn: fnn,
+      // }
+      // foo() // undefined
+      // obj.foo() // 2
+      // obj.fn() // undefined
+      // obj.fnn() // undefined
+
     </script>
   </body>
 </html>
