@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f9e4ff66de88ef4a",
+        "id": "f64e0e43f191ba9d",
         "type": "tabs",
         "children": [
           {
-            "id": "7f048dc87b45e6d9",
+            "id": "189b330467bf36a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "002-Daily/221126.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "002-Daily/221126.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "002-Daily/221126.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "002-Daily/221126.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,8 +136,9 @@
     "direction": "horizontal",
     "width": 286.5
   },
-  "active": "7f048dc87b45e6d9",
+  "active": "0223e39b8ccba1d6",
   "lastOpenFiles": [
+    "002-Daily/221126.md",
     "004-面试题/JavaScript/代码输出/异步&事件循环.md",
     "004-面试题/JavaScript/异步编程.md",
     "004-面试题/JavaScript/JavaScript上.md",
@@ -155,7 +147,6 @@
     "002-Daily/221123.md",
     "004-面试题/Git使用指南/将本地git仓库与远程仓库连接（GitHub）.md",
     "004-面试题/未命名.md",
-    "002-Daily/221122.md",
-    "003-Application/Obsidian/使用git来给obsidian同步.md"
+    "002-Daily/221122.md"
   ]
 }

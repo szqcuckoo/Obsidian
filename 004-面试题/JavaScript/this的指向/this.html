@@ -140,18 +140,57 @@
       // console.log(obj1.a) //2
       // console.log(bar.a) //4
 
-      function foo() {
-        return a => {
-          // this继承 foo()
-          console.log(this.a)
-        }
-      }
-      var obj1 = {a: 2}
-      var obj2 = {a: 3}
-      var bar = foo.call(obj1)
-      bar.call(obj2) // 2
+      // function foo() {
+      //   return a => {
+      //     // this继承 foo()
+      //     console.log(this.a)
+      //   }
+      // }
+      // var obj1 = {a: 2}
+      // var obj2 = {a: 3}
+      // var bar = foo.call(obj1)
+      // bar.call(obj2) // 2 因为 foo返回一个箭头函数，箭头函数的 this 指向外层作用域的 this
 
+      // function foo() {
+      //   let a = 34
+      //   // setTimeout(() => {
+      //   //   // 此处的 this 继承自 foo()
+      //   //   console.log(this.a)
+      //   // }, 100)
+      //   setTimeout(function(){
+      //     // 此处的 this 继承自 foo()
+      //     console.log(this.a)
+      //   }, 100)
+      // }
+      // foo()
+      // var obj = { a: 2 }
+      // foo.call(obj) // 2
 
+      // function test() {
+      //   let a = 2
+      //   // return function foo() {
+      //   //   console.log(a)
+      //   // }
+      //   function foo() {
+      //     console.log(a)
+      //   }
+      //   foo()
+      // }
+      // let bar = test()
+      // bar()
+      // console.log(test())
+      // test()
+      // ;(function () {
+      //   let a = 2
+      //   setTimeout(() => {
+      //     console.log(a)
+      //   }, 200)
+      // })()
+      // let a = 2
+      // ;(function(){console.log(a)})()
+      setTimeout(() => {
+        console.log(this)
+      }, 200)
     </script>
   </body>
 </html>
