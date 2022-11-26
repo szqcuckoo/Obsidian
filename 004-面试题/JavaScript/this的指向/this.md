@@ -41,10 +41,14 @@ function foo() {
 }
 var obj = {
   a: 2,
-  foo:foo
+  foo:foo,
+  fn: () => {
+    console.log(this.a)
+  }
 }
 foo() // undefined
 obj.foo() // 2
+obj.fn()
 ```
 当函数引用有上下文对象的时候，隐式绑定会把函数调用中的 this 绑定到这个上下文对象。
 对象属性引用链中只有最顶层或者说最后一层会影响调用位置。
